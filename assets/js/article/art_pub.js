@@ -21,6 +21,7 @@ $(function() {
         // 一定要记得调用 form.render() 方法
         form.render()
       }
+
     })
   }
 
@@ -107,7 +108,7 @@ $(function() {
         }
         layer.msg('发布文章成功！')
         // 发布文章成功后，跳转到文章列表页面
-        location.href = '/article/art_list.html'
+        location.href = '../article/art_list.html'
       }
     })
   }

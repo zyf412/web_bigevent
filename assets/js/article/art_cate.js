@@ -48,7 +48,7 @@ $(function() {
 
   // 通过代理的形式，为 btn-edit 按钮绑定点击事件
   var indexEdit = null
-  $('tbody').on('click', '.btn-edit', function() {
+  $('tbody').on('click', '#btn-edit', function() {
     // 弹出一个修改文章分类信息的层
     indexEdit = layer.open({
       type: 1,

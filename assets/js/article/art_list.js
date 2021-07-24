@@ -47,6 +47,7 @@ $(function() {
         }
         // 使用模板引擎渲染页面的数据
         var htmlStr = template('tpl-table', res)
+        console.log(res);
         $('tbody').html(htmlStr)
         // 调用渲染分页的方法
         renderPage(res.total)
