@@ -152,4 +152,7 @@ $(function() {
       layer.close(index)
     })
   })
+
+  //通过代理的方式,
+
 })
