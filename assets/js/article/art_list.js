@@ -153,6 +153,13 @@ $(function() {
     })
   })
 
-  //通过代理的方式,
-
+  //通过代理的形式，为编辑按钮绑定点击事件处理函数
+  $('tbody').on('click','.btn-edit',function(){
+    var edit_id = $(this).attr('data-id')
+    // console.log(edit_id);
+    localStorage.setItem('edit_id',edit_id);
+    // var ids = localStorage.getItem('edit_id');
+    // console.log(ids);
+    location.href = '../article/art_edit.html';
+  })
 })
